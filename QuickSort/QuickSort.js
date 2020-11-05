@@ -1,8 +1,5 @@
 var setColors = function (nums) {
-  console.log(nums);
-
   quickSort(nums, 0, nums.length - 1);
-  console.log(nums);
   return nums;
 };
 
